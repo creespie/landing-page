@@ -1,0 +1,128 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+}
+
+.header{
+    display: flex;  
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #1f2937;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    font-size: 18px;
+    gap: 16px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+.right{
+    display: flex;
+    gap: 15px;
+}
+
+.leftside{
+    font-weight: 900 ;
+    align-self: center;
+    font-size: 24px;
+}
+
+.first{
+    background-color: #1f2937;
+    color: white;
+    padding: 50px;
+    display: flex;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 10px;
+}
+
+.image{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(179, 175, 175);
+}
+
+.title{
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.textone{
+    font-size: 18px;
+    color: #b5bbc4;
+}
+
+.buttonone{
+    background-color:#3882F6;
+    border: 0px;
+    color: white;
+    
+}
+
+button{
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.second{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    gap: 20px   ;
+}
+
+.squareholder{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.squares{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 20px   ;
+}
+
+.images{
+    
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.embedtext{
+    width: 200px;
+    color: #898c90;
+    text-align: center;
+    font-size: 18px;
+}
