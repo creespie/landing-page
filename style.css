@@ -3,7 +3,7 @@ body{
     flex-direction: column;
     margin: 0;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
+    min-height: 100vh;
     
 }
 
@@ -13,8 +13,8 @@ body{
     padding: 10px;
     background-color: #1f2937;
     color: white;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 250px;
+    padding-right: 250px;
 }
 
 ul{
@@ -47,6 +47,8 @@ a{
     color: white;
     padding: 50px;
     display: flex;
+    padding-left: 250px;
+    padding-right: 250px;
 }
 
 .main{
@@ -81,12 +83,19 @@ a{
     
 }
 
+.buttonone:hover{
+background-color: white;
+color: #3882F6;
+}
+
 button{
     border-radius: 15px;
     padding: 10px;
     text-align: center;
     padding-left: 25px;
     padding-right: 25px;
+    transition-duration: 0.4s;
+    font-size: 20px;
 }
 
 .second{
@@ -124,5 +133,82 @@ button{
     width: 200px;
     color: #898c90;
     text-align: center;
+    font-size: 18px;
+}
+
+.third{
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    background-color: #898c90;
+    align-items: center;
+    gap: 15px;
+}
+
+.centertext{
+    font-size: 30px;
+    font-style: italic;
+    text-align: left;
+    padding-left: 300px;
+    padding-right: 300px;
+    height: auto;
+}
+
+.author{
+    text-align: right;
+    padding-left: 1200px;
+    padding-right: 300px;
+    font-weight: 600;
+}
+
+.fourth{
+    display: flex;
+    padding: 100px;
+    justify-content: center;
+    color: white;
+}
+
+.container{
+    display: flex;
+    background-color: #3882F6;
+    gap: 80px;
+    padding: 50px;
+    border-radius: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.textholder{
+    display: flex;  
+    flex-direction: column;
+    gap: 10px;
+}
+
+.subtle{
+    font-size: 18px;
+}
+
+.buttontwo{
+    background-color: #3882F6;
+    border-color: white;
+    color: white;
+    border-style: solid;
+}
+
+.buttontwo:hover{
+    background-color: white;
+    color: #3882F6;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
+    padding: 50px;
+    margin-top: auto;
     font-size: 18px;
 }
